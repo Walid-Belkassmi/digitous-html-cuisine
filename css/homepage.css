@@ -1,4 +1,7 @@
-/* main */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
 
 main{
     margin-left: 90px;
@@ -8,6 +11,7 @@ main{
     margin-top: 30px;
     gap: 20px;
 }
+
 .article2{
     display: flex;
     margin-top: 30px;
@@ -22,12 +26,38 @@ main{
 .suzette{
     width: 300px;
 }
+
 .metro{
     width: 300px;
 }
+
 .vitaly{
     width: 300px;
 }
+
+main h2{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+main h4{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    margin-bottom: 15px;
+}
+
+main p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #6c6b6b;
+}
+
+main p.precedent{
+    font-size: 18px;
+}
+
 /* main */
 
 /* aside */
@@ -42,11 +72,12 @@ main{
     margin-bottom: 10px;}
 .partage{
     margin-top: 10px;
-    margin-bottom: 10px;}
-    .icons{
-        display: flex;
-        gap: 25px;
-    }
+    margin-bottom: 10px;
+}
+.icons{
+    display: flex;
+    gap: 25px;
+}
 
     
     /* aside */

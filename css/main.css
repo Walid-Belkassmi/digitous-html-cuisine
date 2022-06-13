@@ -12,12 +12,6 @@ header{
     color: #fff;
 }
 
-/* div.bg{
-    background-image: url(../img/header.jpg);
-    background-size: cover;
-    opacity: .6;
-} */
-
 section.top-header{
     display: flex;
     height: 30px;
@@ -61,6 +55,7 @@ nav{
 
 nav a{
     text-decoration: none;
+    font-size: 15px;
     color: lightgray;
 }
 
