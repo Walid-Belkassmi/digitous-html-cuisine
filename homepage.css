@@ -1,0 +1,52 @@
+/* main */
+
+main{
+    margin-left: 90px;
+}
+.article1{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.article2{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+.article3{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.suzette{
+    width: 300px;
+}
+.metro{
+    width: 300px;
+}
+.vitaly{
+    width: 300px;
+}
+/* main */
+
+/* aside */
+.article{
+    text-align: center;
+}
+.recherche{
+    margin-bottom: 10px;
+}
+.newsleter{
+    margin-top: 10px;
+    margin-bottom: 10px;}
+.partage{
+    margin-top: 10px;
+    margin-bottom: 10px;}
+    .icons{
+        display: flex;
+        gap: 25px;
+    }
+
+    
+    /* aside */
