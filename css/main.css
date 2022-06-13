@@ -34,7 +34,7 @@ section.bottom-header{
 
 header div.logo{
     font-family: 'Courgette', cursive;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 header h1{
@@ -49,13 +49,18 @@ header h3{
     font-size: 30px;
 }
 
+nav.burger{
+    display: none;
+}
+
 nav{
     font-family: 'Oswald', sans-serif
 }
 
 nav a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
+    margin-left: 5px;
     color: lightgray;
 }
 
@@ -66,7 +71,21 @@ nav a.accueil:visited{
 /* responsive */
 /* mobile version */
 @media (max-width: 768px) {
+    header{
+        background-size: cover;
+    }
 
+    nav{
+        display: none;
+    }
+
+    div.logo{
+        position: relative;
+    }
+
+    nav.burger img{
+        display: inline;
+    }
 }
 
 /* version tablette */
