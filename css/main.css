@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+/* header */
+header{
+    height: 400px;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.884) ), url(../img/header.jpg) no-repeat;
+    background-position: 10%;
+    background-size: 100%;
+    color: #fff;
+}
+
+/* div.bg{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    opacity: .6;
+} */
+
+section.top-header{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 10px;
+}
+
+header img{
+    width: 100px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+section.bottom-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div.logo{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+}
+
+header h1{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+header h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+nav{
+    font-family: 'Oswald', sans-serif
+}
+
+nav a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+nav a.accueil:visited{
+    color: #fff;
+}
+
+/* responsive */
+/* mobile version */
+@media (max-width: 768px) {
+
+}
+
+/* version tablette */
+@media (max-width: 992px) {
+
+}
