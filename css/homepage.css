@@ -66,13 +66,18 @@ main p.precedent{
 }
 .recherche{
     margin-bottom: 10px;
+    font-family: 'Courgette', cursive;
+    
 }
 .newsleter{
     margin-top: 10px;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+font-family: 'Courgette', cursive;
+}
 .partage{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Courgette', cursive;
 }
 .icons{
     display: flex;
@@ -88,4 +93,87 @@ aside{
     margin-left:    20px;
     
 }
+.ok{
+    border: 10px, solid;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: medium;
+}
+.inscrire{
+    border: 10px, solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: medium;
+}
+.label2{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.label3{
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+}
+
+ /* version mobile */
+ @media (max-width: 768px) {
+    main{
+      display: block;
+      margin-left: 0px
+    }
+    aside{
+        display: none;
+    }
+
+    .article1{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .article2{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .article3{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .metro{
+        margin-left: 15px;
+        padding-right: 16px;
+    }
+    .vitaly{
+        margin-left: 15px;
+        padding-right: 16px;
+    }
+    .suzette{
+        margin-left: 15px;
+        padding-right: 16px;
+    }
+    .texte{
+        margin-right: 10px;
+    }
+    
+    }
+    
+  
+/* version tablette */
+@media (max-width: 992px) {
+     aside{
+      display: none;
+    }
+  }
+  /* .input1{
+   font-family: 'Oswald', sans-serif;
+  }
+  .input2{
+font-family: 'Oswald', sans-serif;
+}  */
+  
+ 
     /* aside */
