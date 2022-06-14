@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.884) ), url(../img/team/team.jpg) no-repeat;
+    background-size: cover;
+    background-position: 20%;
+    margin-bottom: 40px;
+}
+
+header h2{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+/* main */
+main{
+    width: 80%;
+    color: grey;
+}
+
+main img{
+    width: 200px;
+    clip-path:ellipse(50% 50%);
+}
+
+article.fiche{
+    text-align: center;
+}
+
+main h3{
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+main h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+div.team1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+div.team2{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.side{
+    display: flex;
+}
+
+/* version mobile  */
+@media (max-width: 768px){
+
+    h1{
+        text-align: center;
+    }
+
+    aside{
+        display: none;
+    }
+}
+
+/* version tablette  */
+@media (max-width: 992px){
+
+}
