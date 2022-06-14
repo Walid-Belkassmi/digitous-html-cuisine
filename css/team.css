@@ -65,9 +65,45 @@ div.side{
     aside{
         display: none;
     }
+
+    section.team{
+        padding-left: 70px;
+    }
+
+    div.team1{
+        flex-direction: column;
+    }
+
+    div.team2{
+        flex-direction: column;
+    }
+
+
 }
 
 /* version tablette  */
 @media (max-width: 992px){
+    aside{
+        display: none;
+    }
 
+    section.team{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-left: 95px;
+    }
+
+    div.team1{
+        flex-direction: column;
+    }
+
+    div.team2{
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    footer{
+        flex-direction: row;
+    }
 }
