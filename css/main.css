@@ -49,12 +49,12 @@ header h3{
     font-size: 30px;
 }
 
-nav.burger{
+img.burger{
     display: none;
 }
 
 nav{
-    font-family: 'Oswald', sans-serif
+    font-family: 'Oswald', sans-serif;
 }
 
 nav a{
@@ -68,9 +68,61 @@ nav a.accueil:visited{
     color: #fff;
 }
 
+/* footer */
+footer{
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+footer h2{
+    font-size: 25px;
+    font-family: 'Courgette', cursive;
+    color: #fff;
+    margin: 20px 0;
+}
+
+footer ul li.list{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 5px;
+    color: darkgray;
+}
+
+div.contact h3{
+    font-family: 'Courgette', cursive;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+footer input{
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+}
+
+div.contact button{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+footer i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
 /* responsive */
 /* mobile version */
 @media (max-width: 768px) {
+    /* header */
     header{
         background-size: cover;
     }
@@ -79,16 +131,40 @@ nav a.accueil:visited{
         display: none;
     }
 
-    div.logo{
-        position: relative;
+    img.burger{
+        display: inline;
+        width: 40px;
+        height: 30px;
+        margin: 0;
+        margin-right: 35px;
+    
     }
 
-    nav.burger img{
-        display: inline;
+    /* footer */
+    footer{
+        flex-direction: column;
     }
+
 }
 
 /* version tablette */
 @media (max-width: 992px) {
+    /* header */
+    nav{
+        display: none;
+    }
+
+    img.burger{
+        display: inline;
+        width: 40px;
+        height: 30px;
+        margin: 0;
+
+    }
+
+    /* footer */
+    footer{
+        flex-direction: column;
+    }
 
 }
