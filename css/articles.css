@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+
+.container{
+    display: flex;
+}
+main h2{
+text-transform: capitalize;
+    font-weight: bold;
+font-family: 'Courgette', cursive;
+margin-bottom: 10PX;
+
+}
+main p{
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+
+}
+.intro{
+margin-top: 30px;
+}
+.dev{
+    margin-top: 30px;
+}
+.conclu{
+    margin-top: 30px;
+}
+.propos{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.antoine{
+    width: 100px;
+    border-radius: 40px;
+}
+.moyen{
+    display: block;
+    margin-top: 17px;
+}
+.deca{
+    margin-bottom: 10px;
+}
+.lab{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    flex-direction: column;
+    margin-left: 58px;
+    gap: 30px;
+}
+.avis{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Courgette', cursive;
+
+
+}
+.square{
+    width: 60px;
+}
+.alig{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.math{
+    display: block;
+
+}
+.first{
+    margin-left: 80px;
+}
+.ok{
+    display: block;
+}
+.inscrire{
+    display: block;
+}
+.inp{
+    display: block;
+    margin-bottom: 10px;;
+}
+.inp1{
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 40px;
+}
+
+aside{
+    margin-left: 100px;
+    margin-top: 0;
+}
+.commentaires{
+  display: flex;
+  flex-direction: column;
+}
+
+article.suzette, article.mathieu{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+article.suzette, article.mathieu h3{
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: large;
+
+  
+}
+
+article.hertz{
+  margin-left: 30px;
+  display: flex;
+  margin-top: 10px;
+  gap:  20px;
+}
+article.hertz h3{
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: large;
+}
+@media  (max-width: 768px){
+  .first{
+    margin-left: 0px;
+  }
+  .commentaires{
+   margin-left: 0px;
+  }
+  .propos{
+    margin-left: 0px;
+   }
+   .lab{
+    margin-left: 0px;
+   }
+   main{
+    margin-left: 0px;
+   }
+}
