@@ -19,6 +19,20 @@ main p{
     color: gray;
 
 }
+
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.884) ), url(../img/header.jpg) no-repeat;
+    background-position: 20%;
+}
+
+header h1{
+    margin-top: 100px;
+}
+
+section.bottom-header img{
+    display: none;
+}
+
 .intro{
 margin-top: 30px;
 }
